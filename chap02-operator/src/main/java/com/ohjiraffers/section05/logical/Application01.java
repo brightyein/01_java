@@ -43,6 +43,16 @@ public class Application01 {
         int c = 30;
         int d = 40;
 
+        System.out.println("a가 b보다 작으면서 c가 d보다 작은지 확인: " + (a < b && c < d)); // true
+        System.out.println(a < b && c > d); // false
+        System.out.println(a > b && c < d); // false
+        System.out.println(a > b && c > d); // false
+
+        System.out.println("a가 b보다 작거나 c가 d보다 작은지 확인: " + (a < b || c < d)); // true
+        System.out.println(a > b || c < d); // true
+        System.out.println(a < b || c > d); // true
+        System.out.println(a > b || c > d); // false
+
 
     }
 }
