@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/chap03-method-and-api/chap03-method-and-api.iml" filepath="$PROJECT_DIR$/chap03-method-and-api/chap03-method-and-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/chap04-control-flow/chap04-control-flow.iml" filepath="$PROJECT_DIR$/chap04-control-flow/chap04-control-flow.iml" />
       <module fileurl="file://$PROJECT_DIR$/chap05-array-lecture-source/chap05-array-lecture-source.iml" filepath="$PROJECT_DIR$/chap05-array-lecture-source/chap05-array-lecture-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap06-class-and-object-lecture/chap06-class-and-object-lecture.iml" filepath="$PROJECT_DIR$/chap06-class-and-object-lecture/chap06-class-and-object-lecture.iml" />
     </modules>
   </component>
 </project>
