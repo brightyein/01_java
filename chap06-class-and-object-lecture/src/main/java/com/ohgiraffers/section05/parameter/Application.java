@@ -34,7 +34,7 @@ public class Application {
         r1.calcArea();
         r1.calcRound();
 
-        // 매개변수 전달
+        // 매개변수 전달 (가지고 있는 객체를 얕은 복사하는 느낌)
         pt.testClassTypeParameter(r1);
         System.out.println("변경 후 사각형의 넓이와 둘레 : ");
         r1.calcArea();

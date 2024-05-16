@@ -21,6 +21,10 @@ public class Application {
          *
          * */
 
+        // 쉽게 말해,
+        // 생성자로 객체 생성 못하게 막아둔 것
+        // 이미 만들어둔 하나의 객체만 사용하도록 한 것
+
         /*
          * 싱글톤 구현 방법
          * 1. 이른 초기화 (Eager Initialization)

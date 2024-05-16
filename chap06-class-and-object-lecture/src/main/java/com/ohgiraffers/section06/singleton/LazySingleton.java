@@ -10,9 +10,12 @@ public class LazySingleton {
 
         if (lazy == null) {
             System.out.println("lazy 가 null 인 상태");
+
             lazy = new LazySingleton();
+
             System.out.println("생성되었습니다.");
             return lazy;
+
         } else {
             System.out.println("lazy 가 null 이 아닌 상태");
             return lazy;
