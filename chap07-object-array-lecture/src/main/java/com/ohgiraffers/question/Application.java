@@ -41,14 +41,36 @@ public class Application {
             int choice = sc.nextInt();
 
             switch (choice) {
-                case 1: loginService.login(); break;
+
+                case 1: if (loginService.login() == 1) { // 로그인 성공 여부에 따른 메인화면 전환
+
+                    while (true) {
+                        System.out.println("1. 로그 아웃");
+                        System.out.println("2. 회원 탈퇴\n");
+                        System.out.println("메뉴 입력 : ");
+                        int no = sc.nextInt();
+
+                        switch (no) {
+                            case 1:
+                                System.out.println("로그아웃 되었습니다.");
+                                break;
+                            case 2:
+                                loginService.deleteUser();
+                                break;
+                            default:
+                                System.out.println("잘못된 번호를 입력하셨습니다.\n");
+                                break;
+                        }
+                    }
+                }
+                break;
+
                 case 2: loginService.signUp(); break;
                 case 9:
                     System.out.println("프로그램 종료"); return;
                 default:
                     System.out.println("잘못된 번호를 입력하셨습니다.\n"); break;
             }
-
         }
     }
 }

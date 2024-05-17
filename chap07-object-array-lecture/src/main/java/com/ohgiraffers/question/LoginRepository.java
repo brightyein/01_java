@@ -26,16 +26,16 @@ public class LoginRepository {
         }
     }
 
-    // 아이디 중복 확인
-    public static boolean isUserIdUnique(String id) {
-        boolean result = true;
-
-        for (int i = 0; i < count; i++) {
-            if (users[i].getId() == id) {
-                result = false;
-            } else result = true;
-        } return result;
-    }
+//    // 아이디 중복 확인
+//    public static boolean isUserIdUnique(String id) {
+//        boolean result = true;
+//
+//        for (int i = 0; i < count; i++) {
+//            if (users[i].getId() == id) {
+//                result = false;
+//            } else result = true;
+//        } return result;
+//    }
 
     // 로그인 확인 후 성공 여부 반환
     public boolean successLogin(String id, String pwd) {
@@ -59,5 +59,9 @@ public class LoginRepository {
         }
         System.out.println("가입되지 않은 아이디 입니다. 다시 로그인해 주세요.\n");
         return false;
+    }
+
+    public void deleteUserData() {
+
     }
 }
