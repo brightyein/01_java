@@ -27,7 +27,5 @@ public class Application {
         seller.sale(cars);
         System.out.println("\n결산 : " + seller.toString());
 
-
-
     }
 }

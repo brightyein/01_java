@@ -1,0 +1,37 @@
+package main.java.com.ohgiraffers.question.dto;
+
+public class StudentDTO extends PersonDTO{
+
+    private int grade;
+
+    private String major;
+
+    public StudentDTO() {}
+
+    public StudentDTO(String name, int age, double height, double weight, int grade, String major) {
+        super(age, height, weight);
+        this.grade = grade;
+        this.major = major;
+    }
+
+    @Override
+    public String information() {
+        return super.information();
+    }
+
+    public int getGrade() {
+        return grade;
+    }
+
+    public void setGrade(int grade) {
+        this.grade = grade;
+    }
+
+    public String getMajor() {
+        return major;
+    }
+
+    public void setMajor(String major) {
+        this.major = major;
+    }
+}
