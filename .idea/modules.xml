@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/chap04-control-flow/chap04-control-flow.iml" filepath="$PROJECT_DIR$/chap04-control-flow/chap04-control-flow.iml" />
       <module fileurl="file://$PROJECT_DIR$/chap05-array-lecture-source/chap05-array-lecture-source.iml" filepath="$PROJECT_DIR$/chap05-array-lecture-source/chap05-array-lecture-source.iml" />
       <module fileurl="file://$PROJECT_DIR$/chap06-class-and-object-lecture/chap06-class-and-object-lecture.iml" filepath="$PROJECT_DIR$/chap06-class-and-object-lecture/chap06-class-and-object-lecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap07-object-array-lecture/chap07-object-array-lecture.iml" filepath="$PROJECT_DIR$/chap07-object-array-lecture/chap07-object-array-lecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap08-inheritance-lecture-source/chap08-inheritance-lecture-source.iml" filepath="$PROJECT_DIR$/chap08-inheritance-lecture-source/chap08-inheritance-lecture-source.iml" />
     </modules>
   </component>
 </project>
