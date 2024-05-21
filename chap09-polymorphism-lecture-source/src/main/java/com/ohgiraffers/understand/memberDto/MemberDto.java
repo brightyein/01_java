@@ -8,14 +8,7 @@ public class MemberDto {
 
     private String loginAuth;
 
-    public MemberDto() {
-    }
-
-    public MemberDto(String memberId, String memberPwd, String loginAuth) {
-        this.memberId = memberId;
-        this.memberPwd = memberPwd;
-        this.loginAuth = loginAuth;
-    }
+    public MemberDto() {}
 
     public String getMemberId() {
         return memberId;

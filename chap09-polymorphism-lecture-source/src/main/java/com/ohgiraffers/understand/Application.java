@@ -3,7 +3,6 @@ package main.java.com.ohgiraffers.understand;
 import main.java.com.ohgiraffers.understand.auth.GoogleAuth;
 import main.java.com.ohgiraffers.understand.auth.KakaoAuth;
 import main.java.com.ohgiraffers.understand.auth.NaverAuth;
-import main.java.com.ohgiraffers.understand.auth.SnsAuth;
 import main.java.com.ohgiraffers.understand.memberDto.MemberDto;
 import main.java.com.ohgiraffers.understand.memberService.MemberService;
 
@@ -13,7 +12,6 @@ public class Application {
     public static void main(String[] args) {
 
         MemberService memberService = new MemberService();
-        MemberDto memberDto = new MemberDto();
         GoogleAuth googleAuth = new GoogleAuth();
         KakaoAuth kakaoAuth = new KakaoAuth();
         NaverAuth naverAuth = new NaverAuth();

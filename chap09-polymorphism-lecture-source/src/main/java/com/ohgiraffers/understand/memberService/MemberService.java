@@ -4,8 +4,6 @@ import main.java.com.ohgiraffers.understand.auth.SnsAuth;
 import main.java.com.ohgiraffers.understand.memberDto.MemberDto;
 import main.java.com.ohgiraffers.understand.memberRepository.MemberRepository;
 
-import java.util.Scanner;
-
 public class MemberService {
 
     MemberRepository memberRepository = new MemberRepository();
@@ -18,5 +16,4 @@ public class MemberService {
     public void signUp(MemberDto memberDto) {
         memberRepository.saveMember(memberDto);
     }
-
 }
