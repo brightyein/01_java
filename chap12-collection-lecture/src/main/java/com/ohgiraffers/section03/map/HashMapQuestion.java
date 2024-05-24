@@ -21,6 +21,7 @@ public class HashMapQuestion {
 
     public static void main(String[] args) {
 
+        inputInfo();
 
     }
 
@@ -46,6 +47,7 @@ public class HashMapQuestion {
 
     // 경우의 수 세는 메서드
     public static void checkCase(Map<String, String> clothesMap1) {
+
         // key : value , value : 갯수 (같은 의상 종류가 몇개인지 세어 맵으로 저장)
         Map<String, Long> valueCountMap = clothesMap1.values().stream()
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));

@@ -10,7 +10,7 @@ public class Application02 {
         ExceptionTest et = new ExceptionTest();
 
         try {
-            et.checkEnoughMoney(1000,-500);
+            et.checkEnoughMoney(1000,500);
 
         } catch (NotEnoughMoneyException e) {
             e.printStackTrace();
